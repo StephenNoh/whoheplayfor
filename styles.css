@@ -87,13 +87,12 @@
     display: none;
   }
   
-  video {
-    width: 800px;
-    max-width: 95%;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    margin: auto;
+  #question-container {
+    text-align: center;
+  }
+
+  select, img {
+    margin: 10px;
   }
 
   #question, #missed-concepts-id, #final-score {

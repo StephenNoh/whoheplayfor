@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Who He Play For?</title>
-    <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
@@ -13,7 +12,7 @@
         <div class="intro">
             <h1>Who He Play For?</h1>
             <p>A quiz created by <a href="http://www.twitter.com/stephnoh" target="_blank">Stephen Noh.</a></p>
-            <div class="form-group" id="position-select">
+            <!-- <div class="form-group" id="position-select">
 
                 <label>Select a difficulty level: </label>
                 <div class="form-check form-check-inline">
@@ -29,51 +28,56 @@
                     <label class="form-check-label" for="difficulty-hard">Hard</label>
                 </div>
             </div>
-            <br>
+            <br> -->
         </div>
         <div id="question-container" class="hide">
-          <div id="question">Question</div>
-          <div id="video">Video</div>   
+          <h1>Who He Play For?</h1>
+          <div id="player">Player</div>
+          <div id="image">Image</div>
+          <h2 id="correct"></h2>  
+          <div id="answer"></div>
+          <div id="score">Current Score: 0/0</div>
+          <div class="dropdown">
+            <select id="teams">
+              <option value> -- select team -- </option>
+              <option value='Atlanta Hawks'>Atlanta Hawks</option>
+              <option value='Boston Celtics'>Boston Celtics</option>
+              <option value='Brooklyn Nets'>Brooklyn Nets</option>
+              <option value='Charlotte Hornets'>Charlotte Hornets</option>
+              <option value='Chicago Bulls'>Chicago Bulls</option>
+              <option value='Cleveland Cavaliers'>Cleveland Cavaliers</option>
+              <option value='Dallas Mavericks'>Dallas Mavericks</option>
+              <option value='Denver Nuggets'>Denver Nuggets</option>
+              <option value='Detroit Pistons'>Detroit Pistons</option>
+              <option value='Golden State Warriors'>Golden State Warriors</option>
+              <option value='Houston Rockets'>Houston Rockets</option>
+              <option value='Indiana Pacers'>Indiana Pacers</option>
+              <option value='Los Angeles Clippers'>Los Angeles Clippers</option>
+              <option value='Los Angeles Lakers'>Los Angeles Lakers</option>
+              <option value='Memphis Grizzlies'>Memphis Grizzlies</option>
+              <option value='Miami Heat'>Miami Heat</option>
+              <option value='Milwaukee Bucks'>Milwaukee Bucks</option>
+              <option value='Minnesota Timberwolves'>Minnesota Timberwolves</option>
+              <option value='New Orleans Pelicans'>New Orleans Pelicans</option>
+              <option value='New York Knicks'>New York Knicks</option>
+              <option value='Oklahoma City Thunder'>Oklahoma City Thunder</option>
+              <option value='Orlando Magic'>Orlando Magic</option>
+              <option value='Philadelphia 76ers'>Philadelphia 76ers</option>
+              <option value='Phoenix Suns'>Phoenix Suns</option>
+              <option value='Portland Trail Blazers'>Portland Trail Blazers</option>
+              <option value='Sacramento Kings'>Sacramento Kings</option>
+              <option value='San Antonio Spurs'>San Antonio Spurs</option>
+              <option value='Toronto Raptors'>Toronto Raptors</option>
+              <option value='Utah Jazz'>Utah Jazz</option>
+              </select> 
+            </select>
+          </div>
           <div id="answer-buttons" class="btn-grid">
-            <div class="dropdown">
-                <select class="teams">
-                  <option value> -- select value -- </option>
-                  <option value='Atlanta Hawks'>Atlanta Hawks</option>
-                  <option value='Boston Celtics'>Boston Celtics</option>
-                  <option value='Brooklyn Nets'>Brooklyn Nets</option>
-                  <option value='Charlotte Hornets'>Charlotte Hornets</option>
-                  <option value='Chicago Bulls'>Chicago Bulls</option>
-                  <option value='Cleveland Cavaliers'>Cleveland Cavaliers</option>
-                  <option value='Dallas Mavericks'>Dallas Mavericks</option>
-                  <option value='Denver Nuggets'>Denver Nuggets</option>
-                  <option value='Detroit Pistons'>Detroit Pistons</option>
-                  <option value='Golden State Warriors'>Golden State Warriors</option>
-                  <option value='Houston Rockets'>Houston Rockets</option>
-                  <option value='Indiana Pacers'>Indiana Pacers</option>
-                  <option value='Los Angeles Clippers'>Los Angeles Clippers</option>
-                  <option value='Los Angeles Lakers'>Los Angeles Lakers</option>
-                  <option value='Memphis Grizzlies'>Memphis Grizzlies</option>
-                  <option value='Miami Heat'>Miami Heat</option>
-                  <option value='Milwaukee Bucks'>Milwaukee Bucks</option>
-                  <option value='Minnesota Timberwolves'>Minnesota Timberwolves</option>
-                  <option value='New Orleans Pelicans'>New Orleans Pelicans</option>
-                  <option value='New York Knicks'>New York Knicks</option>
-                  <option value='Oklahoma City Thunder'>Oklahoma City Thunder</option>
-                  <option value='Orlando Magic'>Orlando Magic</option>
-                  <option value='Philadelphia 76ers'>Philadelphia 76ers</option>
-                  <option value='Phoenix Suns'>Phoenix Suns</option>
-                  <option value='Portland Trail Blazers'>Portland Trail Blazers</option>
-                  <option value='Sacramento Kings'>Sacramento Kings</option>
-                  <option value='San Antonio Spurs'>San Antonio Spurs</option>
-                  <option value='Toronto Raptors'>Toronto Raptors</option>
-                  <option value='Utah Jazz'>Utah Jazz</option>
-                  </select> 
-                </select>
-              </div>
           </div>
         </div>
         <div class="controls">
           <button id="start-btn" class="start-btn btn">Start</button>
+          <button id="guess-btn" class="guess-btn btn hide">Guess</button>
           <button id="next-btn" class="next-btn btn hide">Next</button>
           <button id="other-btn" class="other-btn btn hide" onclick="window.location.href='https://stephennoh.github.io/codingportfolio/';">See more quizzes/projects</button>
         </div>
