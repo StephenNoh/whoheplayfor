@@ -12,23 +12,24 @@
         <div class="intro">
             <h1>Who He Play For?</h1>
             <p>A quiz created by <a href="http://www.twitter.com/stephnoh" target="_blank">Stephen Noh.</a></p>
-            <!-- <div class="form-group" id="position-select">
+            <div class="form-group" id="difficulty-select">
 
                 <label>Select a difficulty level: </label>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" id="difficulty-easy" name="difficulty-select" value="easy">
-                    <label class="form-check-label" for="difficulty-easy">Easy</label>
+                <hr>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" id="difficulty-easy" name="difficulty-select" value="Easy">
+                    <label class="form-check-label" for="difficulty-easy">Easy (starters)</label>
                 </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" id="difficulty-medium" name="difficulty-select" value="medium">
-                    <label class="form-check-label" for="difficulty-medium">Medium</label>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" id="difficulty-medium" name="difficulty-select" value="Medium">
+                    <label class="form-check-label" for="difficulty-medium">Medium (bench players)</label>
                 </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" id="difficulty-hard" name="difficulty-select" value="hard">
-                    <label class="form-check-label" for="difficulty-hard">Hard</label>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" id="difficulty-hard" name="difficulty-select" value="Hard">
+                    <label class="form-check-label" for="difficulty-hard">Hard (deep bench)</label>
                 </div>
             </div>
-            <br> -->
+            <br>
         </div>
         <div id="question-container" class="hide">
           <h1>Who He Play For?</h1>
@@ -36,7 +37,7 @@
           <div id="image">Image</div>
           <h2 id="correct"></h2>  
           <div id="answer"></div>
-          <div id="score">Current Score: 0/0</div>
+          <h2 id="score">Current Score: 0/0</h2>
           <div class="dropdown">
             <select id="teams">
               <option value> -- select team -- </option>
@@ -79,7 +80,7 @@
           <button id="start-btn" class="start-btn btn">Start</button>
           <button id="guess-btn" class="guess-btn btn hide">Guess</button>
           <button id="next-btn" class="next-btn btn hide">Next</button>
-          <button id="other-btn" class="other-btn btn hide" onclick="window.location.href='https://stephennoh.github.io/codingportfolio/';">See more quizzes/projects</button>
+          <button id="reset-btn" class="reset-btn btn hide">Start Over</button>
         </div>
     </div>
     <script src="scripts.js"></script>

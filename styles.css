@@ -38,6 +38,11 @@
     box-shadow: 0 0 10px 2px;
   }
   
+  #image {
+    clip-path: inset(0px 0px 55px 0px);
+
+  }
+
   .btn-grid {
     display: grid;
     grid-template-columns: repeat(2, auto);
@@ -105,4 +110,8 @@
   
   .disable {
       pointer-events: none;
+}
+
+.form-check {
+  display: block;
 }
