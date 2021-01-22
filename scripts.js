@@ -132,7 +132,7 @@ function checkGuess(list) {
   }
   else {
     document.getElementById("correct").innerText = "Wrong!"
-    document.getElementById("answer").innerText = `Correct Answer: ${easyList[currentQuestionIndex].team}`
+    document.getElementById("answer").innerText = `Correct Answer: ${list[currentQuestionIndex].team}`
   }
   document.getElementById("score").innerText = `Current Score: ${correctAnswers}/${currentQuestionIndex + 1}`
   if (currentQuestionIndex == list.length-1) {
