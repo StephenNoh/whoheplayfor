@@ -1,30 +1,30 @@
 //array of players
 
-const easyList = [
-  {player: "Nic Batum", 
-  team: "Los Angeles Clippers",
-  image: "./images/batum.jpg"},
-  {player: "Danny Green", 
-  team: "Philadelphia 76ers",
-  image: "./images/green.jpg"},
-  {player: "Julius Randle", 
-  team: "New York Knicks",
-  image: "./images/randle.jpg"},
-  {player: "Robert Covington", 
-  team: "Portland Trail Blazers",
-  image: "./images/covington.jpg"},
-  {player: "Jerami Grant", 
-  team: "Detroit Pistons",
-  image: "./images/grant.jpg"},
-  {player: "George Hill", 
-  team: "Oklahoma City Thunder",
-  image: "./images/hill.jpg"},
-  {
-    player: "Tristan Thompson",
-    team: "Boston Celtics",
-    image: "./images/thompson.jpg"
-  }
-]
+// const easyList = [
+//   {player: "Nic Batum", 
+//   team: "Los Angeles Clippers",
+//   image: "./images/batum.jpg"},
+//   {player: "Danny Green", 
+//   team: "Philadelphia 76ers",
+//   image: "./images/green.jpg"},
+//   {player: "Julius Randle", 
+//   team: "New York Knicks",
+//   image: "./images/randle.jpg"},
+//   {player: "Robert Covington", 
+//   team: "Portland Trail Blazers",
+//   image: "./images/covington.jpg"},
+//   {player: "Jerami Grant", 
+//   team: "Detroit Pistons",
+//   image: "./images/grant.jpg"},
+//   {player: "George Hill", 
+//   team: "Oklahoma City Thunder",
+//   image: "./images/hill.jpg"},
+//   {
+//     player: "Tristan Thompson",
+//     team: "Boston Celtics",
+//     image: "./images/thompson.jpg"
+//   }
+// ]
 
 const mediumList = [
   {player: "Jahlil Okafor", 
@@ -74,6 +74,27 @@ const hardList = [
   {player: "Tony Snell", 
   team: "Atlanta Hawks",
   image: "./images/snell.jpg"},
+]    
+
+const easyList = [
+  {player: "Solomon Hill", 
+  team: "Atlanta Hawks",
+  image: "./images/solomonhill.jpg"},
+  {player: "Alfonzo McKinnie", 
+  team: "Los Angeles Lakers",
+  image: "./images/mckinnie.jpg"},
+  {player: "Ed Davis", 
+  team: "Minnesota Timberwolves",
+  image: "./images/davis.jpg"},
+  {player: "James Johnson", 
+  team: "Dallas Mavericks",
+  image: "./images/johnson.jpg"},
+  {player: "Garrett Temple", 
+  team: "Chicago Bulls",
+  image: "./images/temple.jpg"},
+  {player: "Mark Daigneault (Coach)", 
+  team: "Oklahoma City Thunder",
+  image: "./images/daigneault.png"}
 ]    
     
 let correctAnswers = 0
