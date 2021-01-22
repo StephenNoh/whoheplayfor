@@ -3,77 +3,77 @@
 const easyList = [
   {player: "Nic Batum", 
   team: "Los Angeles Clippers",
-  image: "https://www.basketball-reference.com/req/202101181/images/players/batumni01.jpg"},
+  image: "./images/batum.jpg"},
   {player: "Danny Green", 
   team: "Philadelphia 76ers",
-  image: "https://www.basketball-reference.com/req/202101181/images/players/greenda02.jpg"},
+  image: "./images/green.jpg"},
   {player: "Julius Randle", 
   team: "New York Knicks",
-  image: "https://www.basketball-reference.com/req/202101181/images/players/randlju01.jpg"},
+  image: "./images/randle.jpg"},
   {player: "Robert Covington", 
   team: "Portland Trail Blazers",
-  image: "https://www.basketball-reference.com/req/202101181/images/players/covinro01.jpg"},
+  image: "./images/covington.jpg"},
   {player: "Jerami Grant", 
   team: "Detroit Pistons",
-  image: "https://www.basketball-reference.com/req/202101181/images/players/grantje01.jpg"},
+  image: "./images/grant.jpg"},
   {player: "George Hill", 
   team: "Oklahoma City Thunder",
-  image: "https://www.basketball-reference.com/req/202101181/images/players/hillge01.jpg"},
+  image: "./images/hill.jpg"},
   {
     player: "Tristan Thompson",
     team: "Boston Celtics",
-    image: "https://www.basketball-reference.com/req/202101181/images/players/thomptr01.jpg"
+    image: "./images/thompson.jpg"
   }
 ]
 
 const mediumList = [
   {player: "Jahlil Okafor", 
   team: "Detroit Pistons",
-  image: "https://www.basketball-reference.com/req/202101181/images/players/okafoja01.jpg"},
+  image: "./images/okafor.jpg"},
   {player: "Avery Bradley", 
   team: "Miami Heat",
-  image: "https://www.basketball-reference.com/req/202101181/images/players/bradlav01.jpg"},
+  image: "./images/bradley.jpg"},
   {player: "Aron Baynes", 
   team: "Toronto Raptors",
-  image: "https://www.basketball-reference.com/req/202101181/images/players/baynear01.jpg"},
+  image: "./images/baynes.jpg"},
   {player: "Bryn Forbes", 
   team: "Milwaukee Bucks",
-  image: "https://www.basketball-reference.com/req/202101181/images/players/forbebr01.jpg"},
+  image: "./images/forbes.jpg"},
   {player: "Nerlens Noel", 
   team: "New York Knicks",
-  image: "https://www.basketball-reference.com/req/202101181/images/players/noelne01.jpg"},
+  image: "./images/noel.jpg"},
   {player: "Brad Wanamaker", 
   team: "Golden State Warriors",
-  image: "https://www.basketball-reference.com/req/202101181/images/players/wanambr01.jpg"},
+  image: "./images/wanamaker.jpg"},
   {
     player: "Delon Wright",
     team: "Detroit Pistons",
-    image: "https://www.basketball-reference.com/req/202101181/images/players/wrighde01.jpg"
+    image: "./images/wright.jpg"
   }
 ]
 
 const hardList = [
   {player: "Max Strus", 
   team: "Miami Heat",
-  image: "https://www.basketball-reference.com/req/202101181/images/players/strusma01.jpg"},
+  image: "./images/strus.jpg"},
   {player: "Keita Bates-Diop", 
   team: "San Antonio Spurs",
-  image: "https://www.basketball-reference.com/req/202101181/images/players/bateske01.jpg"},
+  image: "./images/bates-diop.jpg"},
   {player: "De'Andre Bembry", 
   team: "Toronto Raptors",
-  image: "https://www.basketball-reference.com/req/202101181/images/players/bembrde01.jpg"},
+  image: "./images/bembry.jpg"},
   {player: "Torrey Craig", 
   team: "Milwaukee Bucks",
-  image: "https://www.basketball-reference.com/req/202101181/images/players/craigto01.jpg"},
+  image: "./images/craig.jpg"},
   {player: "Darius Miller", 
   team: "Oklahoma City Thunder",
-  image: "https://www.basketball-reference.com/req/202101181/images/players/milleda01.jpg"},
+  image: "./images/miller.jpg"},
   {player: "Jalen Lecque", 
   team: "Indiana Pacers",
-  image: "https://www.basketball-reference.com/req/202101181/images/players/lecquja01.jpg"},
+  image: "./images/lecque.jpg"},
   {player: "Tony Snell", 
   team: "Atlanta Hawks",
-  image: "https://www.basketball-reference.com/req/202101181/images/players/snellto01.jpg"},
+  image: "./images/snell.jpg"},
 ]    
     
 let correctAnswers = 0
