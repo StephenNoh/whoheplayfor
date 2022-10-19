@@ -27,9 +27,9 @@ const mediumList = [
 ]
 
 const hardList = [
-  {player: "Aaron Holiday", 
-  team: "Atlanta Hawks",
-  image: "./images/holiday.jpg"},
+  {player: "Gary Payton II", 
+  team: "Portland Trail Blazers",
+  image: "./images/payton.jpg"},
   {player: "Raul Neto", 
   team: "Cleveland Cavaliers",
   image: "./images/neto.jpg"},
@@ -51,24 +51,21 @@ const hardList = [
 ]    
 
 const easyList = [
-  {player: "Christian Wood", 
-  team: "Dallas Mavericks",
-  image: "./images/wood.jpg"},
-  {player: "Bruce Brown", 
-  team: "Denver Nuggets",
-  image: "./images/brown.jpg"},
-  {player: "John Wall", 
-  team: "Los Angeles Clippers",
-  image: "./images/wall.jpg"},
-  {player: "Gary Payton II", 
-  team: "Portland Trail Blazers",
-  image: "./images/payton.jpg"},
-  {player: "Kevin Huerter", 
-  team: "Sacramento Kings",
-  image: "./images/huerter.jpg"},
-  {player: "Otto Porter Jr.", 
-  team: "Toronto Raptors",
-  image: "./images/porter.jpg"}
+  {player: "Aaron Holiday", 
+  team: "Atlanta Hawks",
+  image: "./images/holiday.jpg"},
+  {player: "Justin Holiday", 
+  team: "Atlanta Hawks",
+  image: "./images/justin.jpg"},
+  {player: "James Johnson", 
+  team: "Indiana Pacers",
+  image: "./images/jamesjohnson.jpg"},
+  {player: "Delon Wright", 
+  team: "Washington Wizards",
+  image: "./images/wright.jpg"},
+  {player: "Garrett Temple", 
+  team: "New Orleans Pelicans",
+  image: "./images/temple.jpg"}
 ]    
     
 let correctAnswers = 0
